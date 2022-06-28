@@ -7,7 +7,7 @@ const Hero = () => {
       <main className="bg-[#f6f6f9]">
         <section className="flex w-[1100px] mx-auto pt-6">
           <div className="pt-8 text-gray-800 heroText">
-            <div className="mb-3 text-gray-600 subtitle">
+            <div className="mb-3 font-semibold text-gray-600 subtitle">
               Invest in US Stocks
             </div>
             <div className="text-[40px] font-bold title w-[380px] leading-[50px] mb-10">
@@ -19,7 +19,7 @@ const Hero = () => {
               <li>Open 2-in-1 super A/C for free.</li>
             </div>
             <div className="mb-10 button">
-              <button className="px-20 py-4 font-bold text-white bg-blue-500 rounded-3xl hover:scale-105">
+              <button className="px-20 py-[14px] font-bold text-white bg-[#017aff] rounded-3xl hover:scale-105">
                 Get Started
               </button>
             </div>
@@ -62,7 +62,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="ml-[150px]">
+          <div className="ml-[170px]">
             <img
               className="w-[430px]"
               src="/images/heroImage.PNG"

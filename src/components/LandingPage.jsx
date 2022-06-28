@@ -1,12 +1,13 @@
 import React from "react";
+// import Explore from "./Explore";
 import Header from "./Header";
-import Hero from "./Hero";
+import Landing from "./Landing";
 
 const LandingPage = () => {
   return (
     <>
       <Header />
-      <Hero />
+      <Landing />
     </>
   );
 };
